@@ -1,3 +1,5 @@
+package Seminar_2;
+
 import java.io.FileNotFoundException;
 
 public class Task_3 {

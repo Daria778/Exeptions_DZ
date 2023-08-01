@@ -1,3 +1,5 @@
+package Seminar_2;
+
 public class Task_2 {
     public static void main(String[] args) {
         int[] intArray = new int[12];
@@ -15,7 +17,7 @@ public class Task_2 {
             System.err.println("Catching exception: " + e);
         }
         catch (ArrayIndexOutOfBoundsException e){
-            System.err.println(" exception: " + e);
+            System.err.println("Exception: " + e);
         }
     }
 }
