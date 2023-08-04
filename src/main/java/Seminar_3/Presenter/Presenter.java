@@ -1,6 +1,4 @@
 package Seminar_3.Presenter;
-
-import Seminar_3.Model.Human;
 import Seminar_3.Model.Service;
 import Seminar_3.View.View;
 

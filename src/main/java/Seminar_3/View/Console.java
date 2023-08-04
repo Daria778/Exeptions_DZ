@@ -23,25 +23,25 @@ public class Console implements View {
 
     @Override
     public void start() {
-        System.out.println("Hello, what can i help you?");
+        print("Hello, what can i help you?");
 
 
         while (work) {
-            System.out.println("1. Add Human\n" +
+            print("1. Add Human\n" +
                 "2. Read file\n" +
                 "3. Exit\n");
             String t = scanner.nextLine();
             int e = Integer.parseInt(t);
             if (e == 1) addHuman(rightHuman());
             else if (e == 2) {
-                System.out.println("Enter the name of the file");
+                print("Enter the name of the file");
                 String x = scanner.nextLine();
                 read(x);
             }
 
             else if (e == 3) finish();
             else {
-                System.out.println("Try again");
+                print("Try again");
                 start();
             }
         }
